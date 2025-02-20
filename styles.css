@@ -196,6 +196,12 @@ body {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .left-content .main-heading {
+        font-size: 40px;
+    }
+}
+
 .left-content .sub-heading {
     color: white;
     font-size: 36px;
@@ -205,6 +211,11 @@ body {
 @media screen and (max-width: 991px) {
     .left-content .sub-heading {
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .left-content .sub-heading {
+        font-size: 25px;
     }
 }
 
