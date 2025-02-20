@@ -16,10 +16,19 @@ body {
     font-family: "Space Grotesk", serif;
 }
 
+/* Spacer section styles */
+.spacer-section {
+    min-height: 500px;
+    background-color: black;
+}
+
 /* Parallax section styles */
 .paralax-btf-section {
     padding: 60px 0px;
-    @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
+    .paralax-btf-section {
         padding: 45px 15px;
     }
 }
@@ -27,8 +36,10 @@ body {
 .paralax-btf-section .tier-content {
     display: flex;
     align-items: flex-start;
+}
 
-    @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+    .paralax-btf-section .tier-content {
         flex-direction: column;
     }
 }
@@ -45,8 +56,10 @@ body {
     justify-content: center;
     background-size: cover !important;
     background-position: center !important;
+}
 
-    @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+    .paralax-btf-section .left-content {
         width: 100%;
         position: relative;
         padding: 0px;
@@ -58,12 +71,13 @@ body {
 .paralax-btf-section .right-content {
     width: 50%;
     padding: 85px 10px 60px;
+}
 
-    @media (max-width: 767px) {
+@media (max-width: 767px) {
+    .paralax-btf-section .right-content {
         width: 100%;
         padding: 0px;
         margin-top: 22px;
-
     }
 }
 
@@ -121,7 +135,6 @@ body {
 }
 
 /* Right side styles */
-
 .paralax-btf-section .right-items {
     margin: auto;
     display: grid;
@@ -174,8 +187,10 @@ body {
 .left-content .main-heading {
     color: white;
     font-size: 55px;
+}
 
-    @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+    .left-content .main-heading {
         font-size: 32px;
     }
 }
@@ -183,8 +198,10 @@ body {
 .left-content .sub-heading {
     color: white;
     font-size: 36px;
+}
 
-    @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+    .left-content .sub-heading {
         font-size: 20px;
     }
 }
@@ -192,8 +209,10 @@ body {
 .left-content .description {
     color: white;
     font-size: 20px;
+}
 
-    @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+    .left-content .description {
         font-size: 15px;
     }
 }
@@ -201,8 +220,10 @@ body {
 .right-content .sub-heading {
     color: rgb(0, 0, 0);
     font-size: 36px;
+}
 
-    @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+    .right-content .sub-heading {
         font-size: 22px;
     }
 }
@@ -210,8 +231,10 @@ body {
 .right-content .description {
     color: rgb(0, 0, 0);
     font-size: 20px;
+}
 
-    @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+    .right-content .description {
         font-size: 16px;
     }
 }
