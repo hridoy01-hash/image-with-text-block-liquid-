@@ -1,0 +1,217 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", serif;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", serif;
+}
+
+/* Parallax section styles */
+.paralax-btf-section {
+    padding: 60px 0px;
+    @media screen and (max-width: 767px) {
+        padding: 45px 15px;
+    }
+}
+
+.paralax-btf-section .tier-content {
+    display: flex;
+    align-items: flex-start;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.paralax-btf-section .left-content {
+    width: 50%;
+    background: #000000;
+    padding: 0px;
+    top: 104px;
+    position: sticky;
+    min-height: calc(100vh - 104px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+
+    @media screen and (max-width: 767px) {
+        width: 100%;
+        position: relative;
+        padding: 0px;
+        min-height: unset;
+        top: 0px;
+    }
+}
+
+.paralax-btf-section .right-content {
+    width: 50%;
+    padding: 85px 10px 60px;
+
+    @media (max-width: 767px) {
+        width: 100%;
+        padding: 0px;
+        margin-top: 22px;
+
+    }
+}
+
+.paralax-btf-section .left-sub-content {
+    max-width: 568px;
+    margin: auto;
+    padding: 20px;
+}
+
+@media (max-width: 991px) {
+    .paralax-btf-section .left-sub-content {
+        max-width: 350px;
+    }
+}
+
+.paralax-btf-section h1,
+.paralax-btf-section h2,
+.paralax-btf-section h3,
+.paralax-btf-section p {
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0px;
+    line-height: 1;
+}
+
+/* Left side styles */
+.paralax-btf-section .left-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 60px;
+    margin-top: 60px;
+}
+
+.paralax-btf-section .left-item {
+    display: flex;
+    align-items: center;
+}
+
+.paralax-btf-section .left-item .item-image:not(:empty) {
+    width: 48px;
+    margin-right: 16px;
+}
+
+.paralax-btf-section img {
+    width: 100%;
+}
+
+.paralax-btf-section .left-item .item-content {
+    width: calc(100% - 64px);
+    max-width: 505px;
+}
+
+.paralax-btf-section .left-item h3 {
+    text-transform: uppercase;
+}
+
+/* Right side styles */
+
+.paralax-btf-section .right-items {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 60px;
+    max-width: 538px;
+}
+
+@media (max-width: 991px) {
+    .paralax-btf-section .right-items {
+        row-gap: 30px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .paralax-btf-section .right-items {
+        row-gap: 22px;
+        max-width: 100%;
+    }
+}
+
+.paralax-btf-section .right-item {
+    width: 100%;
+}
+
+.paralax-btf-section img {
+    width: 100%;
+}
+
+.shogun-image {
+    max-width: 100%;
+    min-height: inherit;
+    max-height: inherit;
+    display: inline !important;
+    border: 0;
+    vertical-align: middle;
+}
+
+.paralax-btf-section .right-item h2 {
+    margin: 16px 0px 10px 0;
+    line-height: 1.2;
+}
+
+.paralax-btf-section .right-item p {
+    line-height: 1;
+}
+
+/* Custom styles for headings and descriptions */
+.left-content .main-heading {
+    color: white;
+    font-size: 55px;
+
+    @media screen and (max-width: 991px) {
+        font-size: 32px;
+    }
+}
+
+.left-content .sub-heading {
+    color: white;
+    font-size: 36px;
+
+    @media screen and (max-width: 991px) {
+        font-size: 20px;
+    }
+}
+
+.left-content .description {
+    color: white;
+    font-size: 20px;
+
+    @media screen and (max-width: 991px) {
+        font-size: 15px;
+    }
+}
+
+.right-content .sub-heading {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+
+    @media screen and (max-width: 991px) {
+        font-size: 22px;
+    }
+}
+
+.right-content .description {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+    @media screen and (max-width: 991px) {
+        font-size: 16px;
+    }
+}
