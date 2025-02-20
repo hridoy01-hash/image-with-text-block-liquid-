@@ -186,7 +186,8 @@ body {
 /* Custom styles for headings and descriptions */
 .left-content .main-heading {
     color: white;
-    font-size: 55px;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
@@ -198,6 +199,7 @@ body {
 .left-content .sub-heading {
     color: white;
     font-size: 36px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
@@ -220,6 +222,7 @@ body {
 .right-content .sub-heading {
     color: rgb(0, 0, 0);
     font-size: 36px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
